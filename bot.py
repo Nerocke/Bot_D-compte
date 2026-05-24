@@ -11,6 +11,7 @@ PARIS_TZ     = pytz.timezone("Europe/Paris")
 RETOUR_ELONE = datetime.date(2026, 6, 8)
 
 intents = discord.Intents.default()
+intents.message_content = True
 client  = discord.Client(intents=intents)
 
 def jours_restants() -> int:
