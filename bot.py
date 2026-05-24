@@ -5,7 +5,7 @@ import pytz
 import os
 
 TOKEN      = os.environ["DISCORD_TOKEN"]
-CHANNEL_ID = 852170678291267684
+CHANNEL_ID = 1508129254422876200
 
 PARIS_TZ     = pytz.timezone("Europe/Paris")
 RETOUR_ELONE = datetime.date(2026, 6, 8)
